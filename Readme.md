@@ -51,4 +51,7 @@ Students belonging to the "42 cursus" cursus who joined 42 from 7th October 2019
 <H3>Intra Applications</h3>
  
  <a href="https://profile.intra.42.fr/oauth/applications">Here</a> you can see all the 42 apps you gave a token access to and revoke the access if needed. 
- 
+
+<h3> Also </h3>
+
+The code is not maintained but the script continues to update the database. 

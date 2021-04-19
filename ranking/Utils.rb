@@ -52,28 +52,6 @@ class Utils
 
   end
 
-  def self.fix_double(p1, p2)
-	case
-	when (p1 == 0 && p2 == 1)
-	res = "0,0"
-	when (p1 == 1 && p2 == 0)
-	res = "0,0"
-	when (p1 == 1 && p2 == 1)
-	res = "1,1"
-	when (p1 == 1 && p2 == 2)
-	res = "0,2"
-	when (p1 == 2 && p2 == 1)
-	res = "2,0"
-	else
-		puts "$$$$$$$$$$$$$$$$$$$$$$ undef $$$$$$$$$$$$$$$$$$$$$"
-		puts "$$$$$$$$$$$$$$$$$$$$$$ check this $$$$$$$$$$$$$$$$$$$$$"
-		puts "p1 = #{p1}"
-		puts "p2 = #{p2}"
-		res = "#{p1},#{p2}"
-	end
-	res
-  end
-
 	def self.save_to_file(save, data, campus)
 		return if (!save)
 		directory = "data/ranking/"
