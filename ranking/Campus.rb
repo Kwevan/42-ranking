@@ -7,6 +7,7 @@ end
 
 def replace_invalid_char(name)
 	name = name.gsub('ã', 'a')
+	name = name.gsub(' ', '-')
 end
 
 def get_campuses
