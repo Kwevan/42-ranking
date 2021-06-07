@@ -15,6 +15,8 @@ I use the rules we use in Paris for the days, but some campuses like tokyo for e
 
 <a href="https://find-peers.herokuapp.com/"><H3>Projects doing</h3></a>
 
+Not really working anymore due to curriculum changes. RIP
+
 Only works for the inner circle
 
 Again I use the Paris rules for every campuses, this is why in some campuses some people are misplaced.
